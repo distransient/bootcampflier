@@ -82,11 +82,15 @@ header h2.logo {
 }
 
 .banner {
-  color: #c23b0a;
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-align: center;
   width: 100%;
   padding: .4in .6in;
+  padding-top: .6in;
+}
+
+.banner .lead {
+  font-size: 1.3em;
 }
 
 .container {
@@ -95,20 +99,51 @@ header h2.logo {
 }
 
 .info {
+  font-size: 1.4em;
+  text-align: justify;
   float: left;
-  width: 55%;
-  height: 2.4in;
-  border-radius: .1in;
-  background-color: rgba(231, 63, 0, .5);
+  width: 50%;
 }
 
 footer {
+  text-align: right;
+  font-size: 2em;
   float: right;
   width: 40%;
-  height: 2.4in;
-  border: .02in solid rgba(255, 255, 255, .5);
-  border-radius: .1in;
-  background-color: rgba(255, 219, 69, 1);
+}
+
+footer .price {
+  float: left;
+  font-size: 1.8em;
+  margin-top: .6em;
+  margin-right: .5em;
+}
+
+footer .link {
+  margin-top: .16em;
+  text-align: left;
+  font-size: 1.8em;
+}
+
+.gc-cs-link {
+  display: inline;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+footer .contact {
+  white-space: nowrap;
+  text-align: justify;
+  font-size: .7em;
+}
+
+footer .contact-first {
+  margin-top: .5em;
+}
+
+footer .right {
+  display: inline;
+  float: right;
 }
 
 .cf:before, .cf:after {
@@ -119,4 +154,3 @@ footer {
 .cf:after {
   clear: both;
 }
-
